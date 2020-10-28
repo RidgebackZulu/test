@@ -20,6 +20,11 @@
         "title": "blah",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 2
+      },
+      {
+        "title": "Derka",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 3
       }
     ]
   }
