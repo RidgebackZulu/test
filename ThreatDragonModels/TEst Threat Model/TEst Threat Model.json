@@ -9,7 +9,141 @@
       {
         "title": "auth flow",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 10,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "d0e5cd76-3e45-4b3d-ac6f-7924d3d23169",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 510,
+                "y": 130
+              },
+              "angle": 0,
+              "id": "859e5aac-fd3c-4544-ab23-fc92e9d1bc46",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 280,
+                "y": 150
+              },
+              "angle": 0,
+              "id": "8ae90f66-b145-4577-98e7-41528e98936c",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d0e5cd76-3e45-4b3d-ac6f-7924d3d23169"
+              },
+              "target": {
+                "id": "8ae90f66-b145-4577-98e7-41528e98936c"
+              },
+              "vertices": [],
+              "id": "e8524f89-ab16-4d48-af81-01fc09b44c40",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "id": "8ae90f66-b145-4577-98e7-41528e98936c"
+              },
+              "target": {
+                "id": "859e5aac-fd3c-4544-ab23-fc92e9d1bc46"
+              },
+              "vertices": [],
+              "id": "bfe987e3-4096-428c-a886-955f7a05b8f3",
+              "z": 6,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       },
       {
         "title": "Spoofed ID",
