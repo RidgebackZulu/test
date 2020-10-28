@@ -15,6 +15,11 @@
         "title": "Spoofed ID",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 1
+      },
+      {
+        "title": "blah",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 2
       }
     ]
   }
