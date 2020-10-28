@@ -31,7 +31,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 0"
+                  "text": "Threat Actor"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -52,12 +52,13 @@
               "id": "859e5aac-fd3c-4544-ab23-fc92e9d1bc46",
               "z": 3,
               "hasOpenThreats": false,
+              "isSigned": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 2"
+                  "text": "S3 Bucket"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -78,6 +79,7 @@
               "id": "8ae90f66-b145-4577-98e7-41528e98936c",
               "z": 4,
               "hasOpenThreats": false,
+              "privilegeLevel": "Low Priv",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -99,7 +101,16 @@
               "target": {
                 "id": "8ae90f66-b145-4577-98e7-41528e98936c"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 238,
+                  "y": 158
+                },
+                {
+                  "x": 256,
+                  "y": 165
+                }
+              ],
               "id": "e8524f89-ab16-4d48-af81-01fc09b44c40",
               "labels": [
                 {
@@ -115,6 +126,9 @@
               ],
               "z": 5,
               "hasOpenThreats": false,
+              "protocol": "TCP",
+              "isPublicNetwork": true,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
